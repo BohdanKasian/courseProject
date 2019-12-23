@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="fonts/fonts.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>Todo</title>
+</head>
+<body>
+<section class="login todo-height">
+    <div class="wrapper">
+        <div class="flex-column todo-box login-padding">
+        <form class="flex-column bg-list bg-box__width__radius login-form-width">
+            <label>Login</label>
+            <input id="form-login" class="bg-form-and-input" placeholder="Login">
+            <label class="login-label-margin">Password</label>
+            <input id="form-password" class="bg-form-and-input" placeholder="Password">
+            <div class="login-button_margin">
+                <a class="button" href="#popup1" id="registration-link">Sign in</a>
+                <button type="submit" id="form-button-sign-up" class="button">Sign up</button>
+            </div>
+        </form>
+        </div>
+        <div id="popup1" class="overlay">
+        <div class="flex-column todo-box login-padding registration  popup">
+            <form class="flex-column bg-list bg-box__width__radius login-form-width">
+                <a class="close" href="#">&times;</a>
+                <label>Login</label>
+                <input id="form-login-registration" class="bg-form-and-input" placeholder="Login">
+                <label class="login-label-margin">Password</label>
+                <input id="form-password-registration" class="bg-form-and-input" placeholder="Password">
+                <label class="login-label-margin">User name</label>
+                <input id="form-username-registration" class="bg-form-and-input" placeholder="Username">
+                <button type="submit" id="form-button-registration" class="button">Registration</button>
+            </form>
+        </div>
+        </div>
+    </div>
+</section>
+<!--<section class="todo">-->
+<!--    <div class="wrapper">-->
+<!--        <div class="flex-column todo-box">-->
+<!--            <div class="flex-column bg-list todo-height bg-box__width__radius">-->
+<!--                <div class="new-task todo-padding">-->
+<!--                    <form class="flex-row bg-form-and-input">-->
+<!--                        <input type="text" id="todo-new-task" placeholder="Add a new task...">-->
+<!--                        <button type="submit" id="todo-button-new-task" class="button">Go</button>-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--                <div class="task-filter-box todo-padding">-->
+<!--                    <div class="position-counter">-->
+<!--                        <button type="submit" id="filter-task-all" class="button">all task</button>-->
+<!--                        <div class="counter">9</div>-->
+<!--                    </div>-->
+<!--                    <div class="position-counter">-->
+<!--                        <button type="submit" id="filter-finished" class="button">finished</button>-->
+<!--                        <div class="counter">1</div>-->
+<!--                    </div>-->
+<!--                    <div class="position-counter">-->
+<!--                        <button type="submit" id="filter-unfinished" class="button">unfinished</button>-->
+<!--                        <div class="counter">15</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="black-line"></div>-->
+<!--                <div class="task-box flex-row todo-padding">-->
+<!--                    <label class="checkbox">-->
+<!--                    <input type="checkbox" class="c1"  />-->
+<!--                    <span class="checkbox-span"></span>-->
+<!--                    </label>-->
+<!--                    <div class="flex-column task-detail-box">-->
+<!--                        <div class="delete-task"></div>-->
+<!--                        <input type="text" class="task title" value="tekst" />-->
+<!--                    </div>-->
+<!--                    <p class="date" >12.22.1111</p>-->
+<!--                </div>-->
+<!--                <div class="task-box flex-row todo-padding">-->
+<!--                    <label class="checkbox">-->
+<!--                        <input type="checkbox" class="c1"  />-->
+<!--                        <span class="checkbox-span"></span>-->
+<!--                    </label>-->
+<!--                    <div class="flex-column task-detail-box">-->
+<!--                        <div class="delete-task"></div>-->
+<!--                        <input type="text" class="task title" value="tekst" />-->
+<!--                        <input type="text" class="task description" value="tekstaaaas dsadawqs dasidasdm asodm asmd qw qjwd qwjdqw djkjwjwasm" />-->
+<!--                    </div>-->
+<!--                    <p class="date" >12.22.1111</p>-->
+<!--                </div>-->
+<!--                <div class="task-box flex-row todo-padding">-->
+<!--                    <label class="checkbox">-->
+<!--                        <input type="checkbox" class="c1"  />-->
+<!--                        <span class="checkbox-span"></span>-->
+<!--                    </label>-->
+<!--                    <div class="flex-column task-detail-box">-->
+<!--                        <div class="delete-task"></div>-->
+<!--                        <p class="task title" value="tekst" >title P </p>-->
+<!--                        <p class="task description" >tekstaaaas dsadawq PPPPPqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</p>-->
+<!--                    </div>-->
+<!--                    <p class="date" >12.22.1111</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<script type="module" src="js/init.js"></script>
+<!--<script type="module" src="js/registration.js"></script>-->
+<!--<script type="module" src="js/onLoad.js"></script>-->
+<!--<script src="js/route.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Circe-Regular";
+    src: local(''),
+    url("../fonts/Circe-Regular.woff"),
+    url("../fonts/Circe-Regular.ttf")
+}
+@font-face {
+    font-family: "Circe-Bold";
+    src: local(''),
+    url("../fonts/Circe-Bold.woff"),
+    url("../fonts/Circe-Bold.ttf")
+}
